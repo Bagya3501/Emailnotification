@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite setup]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="common.Listenerdemo"/>
+  </listeners>
+  <test thread-count="5" name="Test before and after suite(failed)">
+    <classes>
+      <class name="Ui.GroupingTestcase2">
+        <methods>
+          <include name="testcaseFour"/>
+          <include name="aftersuitetest"/>
+          <include name="Beforesuitetest"/>
+        </methods>
+      </class> <!-- Ui.GroupingTestcase2 -->
+    </classes>
+  </test> <!-- Test before and after suite(failed) -->
+</suite> <!-- Failed suite [Suite setup] -->

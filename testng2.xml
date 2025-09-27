@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite setup">
+<listeners>
+<listener class-name="common.Listenerdemo"/>
+</listeners>
+  <test name="Test before and after suite">
+    <classes>
+      <class name="Ui.GroupingTestcase2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T14:19:49 IST" name="Default suite" finished-at="2025-08-29T14:19:49 IST" duration-ms="70">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupingTestcase.testcaseFour()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseFour" class="Ui.GroupingTestcase"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupingTestcase.testcaseFive()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseFive" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcaseone()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseone" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcasethree()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcasethree" class="Ui.GroupingTestcase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="GroupingTestcase.testcaseFive()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseFive" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcaseFour()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseFour" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcaseone()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcaseone" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcasethree()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcasethree" class="Ui.GroupingTestcase"/>
+        <method signature="GroupingTestcase.testcasetwo()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" name="testcasetwo" class="Ui.GroupingTestcase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-29T14:19:49 IST" name="Default test" finished-at="2025-08-29T14:19:49 IST" duration-ms="70">
+      <class name="Ui.GroupingTestcase">
+        <test-method signature="testcaseFive()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" started-at="2025-08-29T14:19:49 IST" name="testcaseFive" finished-at="2025-08-29T14:19:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFive -->
+        <test-method signature="testcaseFour()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" started-at="2025-08-29T14:19:49 IST" name="testcaseFour" finished-at="2025-08-29T14:19:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFour -->
+        <test-method signature="testcaseone()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" started-at="2025-08-29T14:19:49 IST" name="testcaseone" finished-at="2025-08-29T14:19:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseone -->
+        <test-method signature="testcasethree()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" started-at="2025-08-29T14:19:49 IST" name="testcasethree" finished-at="2025-08-29T14:19:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasethree -->
+        <test-method signature="testcasetwo()[pri:0, instance:Ui.GroupingTestcase@292b08d6]" started-at="2025-08-29T14:19:49 IST" name="testcasetwo" finished-at="2025-08-29T14:19:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasetwo -->
+      </class> <!-- Ui.GroupingTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

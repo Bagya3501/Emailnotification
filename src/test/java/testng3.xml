@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lauching browser using testNg xml">
+  <test name="Lauching browser using testNg xml">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="Ui.Multibroserlogib"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
