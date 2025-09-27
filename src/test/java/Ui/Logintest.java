@@ -29,6 +29,6 @@ public class Logintest {
 	}
 	@Test(priority=2)
 public void ALogout() {
-	System.out.println("Loggedout successfully");
+	System.out.println("Loggedout successfully")
 }
 }
