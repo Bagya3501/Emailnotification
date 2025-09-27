@@ -29,6 +29,7 @@ public class Logintest {
 	}
 	@Test(priority=2)
 public void ALogout() {
-	System.out.println("Loggedout successfully")
+	System.out.println("Loggedout successfully")// removed quotes to check getting email when the code is failed 
+	//running code in jenkin
 }
 }
